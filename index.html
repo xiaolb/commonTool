@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>love</title>
+  <style type="text/css">
+    html, body {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      background: #000;
+    }
+    canvas {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    span {
+      position: absolute;
+      left: calc(50% - 70px);
+      top: calc(50% - 10px);
+      color: purple;
+      font-size: 20px;
+      width: 140px;
+      text-align: center;
+      height: 30px;
+      line-height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="pinkboard"></canvas>
+  <span class="nice">微笑对待每一天</span>
+  <script type="text/javascript" src='./bundle.js'></script>
+  <script type="text/javascript" src="./heart.js"></script>
+  <script type="text/javascript">
+    let classNice = document.getElementsByClassName('nice')[0];
+
+    function changeColor() {
+      let red = parseInt(Math.random() * 255);
+      let green = parseInt(Math.random() * 255);
+      let blue = parseInt(Math.random() * 255);
+      let opacity = 1;
+      return "rgba(" + red + ", " + green + ", " + blue + ", " + opacity + ")";
+    }
+
+    setInterval(function() {
+      const classValue = changeColor();
+      classNice.style.color = classValue;
+    }, 500)
+
+  </script>
+</body>
+</html>
