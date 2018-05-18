@@ -1,13 +1,14 @@
 {
-  "name": "@xinguang/common-tool",
-  "version": "1.1.19",
+  "name": "common-tool",
+  "version": "1.2.19",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib",
+    "clean": "rimraf ./lib",
     "libStart": "node lib/index.js",
-    "prepublish": "rimraf lib npm run build"
+    "prepublish": "npm run clean && npm run build"
   },
   "author": "xlb",
   "license": "ISC",
@@ -41,6 +42,7 @@
     "html-webpack-plugin": "^2.24.1",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
+    "rimraf": "^2.6.2",
     "open": "0.0.5",
     "postcss": "^5.2.6",
     "postcss-loader": "^1.1.1",
