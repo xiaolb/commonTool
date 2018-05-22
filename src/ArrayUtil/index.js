@@ -26,6 +26,16 @@ export default class ArrayUtil {
     return ret;
   }
 
+  // 使用reduce实现平铺
+  // static flatten(arr) {
+  //   return arr.reduce((pre, next) =>{
+  //     if (next instanceof Array) {
+  //       return pre.concat(flatten(next));
+  //     }
+  //     return pre.concat(next);
+  //   },[])
+  // }
+
   // 判断一个对象是不是数组，是的话返回true,否则返回false
   static isArray(obj) {
     if (typeof Array.isArray == 'function') {
