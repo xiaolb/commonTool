@@ -1,15 +1,5 @@
-## 安装
-第一步，改变我们的源，
 
-    npm i -g nrm   
-    nrm add xgnpm http://172.16.2.71:4873/    
-    nrm use xgnpm;
-
-第二步，安装包， 
-
-    npm i @xinguang/common-tool --save-dev;     
-
-第三步，在我们需要的地方引入包，就可以直接用了。    
+举个栗子：
 ```
 // 首先，引入工具包
 import { DateUtil } from '@xinguang/common-tool'
