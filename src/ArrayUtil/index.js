@@ -32,6 +32,7 @@ export default class ArrayUtil {
   //     if (next instanceof Array) {
   //       return pre.concat(flatten(next));
   //     }
+  //     // 这里只能用pre.concat ,而不能用pre.push,因为reduce无法保证前一个值是一个数组； 
   //     return pre.concat(next);
   //   },[])
   // }
