@@ -67,7 +67,7 @@ gulp.task('dev',function(){
 gulp.task('open', function (done) {
     gulp.src('')
         .pipe(gulpOpen({
-            uri: 'http://localhost:8098'
+            uri: 'http://localhost:8099'
         }))
         .on('end', done);
 });

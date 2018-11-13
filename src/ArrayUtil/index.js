@@ -5,9 +5,7 @@ export default class ArrayUtil {
    *           call: Util.flatten(array);
    *           output: [1, 2, 3, 4, 5, 6, 7, 8]
    *           
-   * @Author   JohnNong
-   * @Email    overkazaf@gmail.com
-   * @Github   https://github.com/overkazaf
+   * @Author   mapleLeaf
    * @DateTime 2016-11-02T16:47:20+0800
    * @param    {[type]}                     array [description]
    * @return   {[type]}                           [description]
@@ -53,9 +51,7 @@ export default class ArrayUtil {
    *           call: ArrayUtil.dislodge(array);
    *           output: [2,67,8]
    *           
-   * @Author   JohnNong
-   * @Email    overkazaf@gmail.com
-   * @Github   https://github.com/overkazaf
+   * @Author   mapleLeaf
    * @DateTime 2016-11-02T16:47:20+0800
    * @param    {[type]}                     array [description]
    * @return   {[type]}                     array [description]

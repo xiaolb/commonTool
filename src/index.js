@@ -9,8 +9,7 @@ import DeepClone from "./DeepClone"
 import RegularUtil from "./RegularUtil"
 import CompareUtil from "./CompareUtil"
 import MoneyFormat from "./MoneyFormat"
-import CountlyUtil from "./CountlyUtil"
-import FunDebugUtil from "./FunDebugUtil"
+import ThrottleUtil from "./ThrottleUtil"
 
 /*
 * 数组操作，
@@ -217,8 +216,7 @@ export {
   DeepClone, 
   CompareUtil,
   MoneyFormat,
-  CountlyUtil,
-  FunDebugUtil,
+  ThrottleUtil,
 };
 
 let CommonUtil = {
@@ -233,8 +231,7 @@ let CommonUtil = {
     RegularUtil,
     CompareUtil,
     MoneyFormat,
-    CountlyUtil,
-    FunDebugUtil,
+    ThrottleUtil,
 };
 
 

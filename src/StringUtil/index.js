@@ -4,9 +4,7 @@ export default class StringUtil {
 
     /**
      * [padZeroLeft Use '0' to pad with given string]
-     * @Author   JohnNong
-     * @Email    overkazaf@gmail.com
-     * @Github   https://github.com/overkazaf
+     * @Author   mapleLeaf
      * @DateTime 2016-10-30T23:20:01+0800
      * @param    {[type]}                     str [description]
      * @param    {[type]}                     len [description]
@@ -31,9 +29,7 @@ export default class StringUtil {
 
     /**
      * [repeat 使用矩阵快速幂来处理字符串连接]
-     * @Author   JohnNong
-     * @Email    overkazaf@gmail.com
-     * @Github   https://github.com/overkazaf
+     * @Author   mapleLeaf
      * @DateTime 2016-10-30T23:18:45+0800
      * @param    {[type]}                     ch    [description]
      * @param    {[type]}                     times [description]
