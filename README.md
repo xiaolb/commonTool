@@ -32,6 +32,7 @@ function DateUtil() {
 * [正则校验RegularUtil](#RegularUtil)  
 * [两个值比较CompareUtil](#CompareUtil)  
 * [金钱格式MoneyFormat](#MoneyFormat)  
+* [节流防抖ThrottleUtil](#ThrottleUtil)  
 
 ****
 ## <span id = "DateUtil">时间工具</span>
@@ -421,3 +422,4 @@ let moeny = 1,234,567.1234;
 
 rMoney(moeny) // 1234567.1234
 ```
+## <span id = "ThrottleUtil">节流防抖</span>
