@@ -423,3 +423,16 @@ let moeny = 1,234,567.1234;
 rMoney(moeny) // 1234567.1234
 ```
 ## <span id = "ThrottleUtil">节流防抖</span>
+
+====== 1. debounce ======    
+实现防抖功能: debounce(func, wait, immediate)
+| func | wait | immediate | 
+  :-:   |   :-:  |   :-:   
+| 传入的函数  |  间隔多长时间 | 是否立即执行
+
+
+====== 2. throttle ======    
+实现节流功能（进入立即执行，离开之后还会执行一次）: throttle(func, wait)
+| func | wait | immediate 
+  :-:   |   :-:     
+| 传入的函数  |  间隔多长时间 
