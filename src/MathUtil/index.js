@@ -11,7 +11,8 @@ export default class MathUtil {
     }
 
     /**
-     * 四则运算扩展，解决浮点运算精度问题 */
+     * 四则运算扩展，解决浮点运算精度问题
+     */
     // 获取小数位数
     static getFloatLen(n) {
         let ret = 0;
