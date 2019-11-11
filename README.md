@@ -2,7 +2,7 @@
 举个栗子：
 ```
 // 首先，引入工具包
-import { DateUtil } from '@xinguang/common-tool'
+import { DateUtil } from '@mapleleaf1234/common-tool'
 
 // 比如上边引用的是DateUtil；在下边就可以直接引用DateUtil了。
 let timeFormat = DateUtil.formatDate(1234567899875);

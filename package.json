@@ -1,6 +1,6 @@
 {
-    "name": "common-tool",
-    "version": "1.2.19",
+    "name": "@mapleleaf1234/common-tool",
+    "version": "1.2.21",
     "description": "",
     "main": "./lib/index.js",
     "scripts": {
